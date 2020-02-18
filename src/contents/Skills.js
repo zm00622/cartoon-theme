@@ -5,7 +5,7 @@ class Skills extends Component {
     {
         super(props);
         this.state={
-            'myskills':['HTML','CSS','JS','REACT JS','GIT']
+            'myskills':['HTML','CSS','REACT JS','GIT', 'WORDPRESS', 'PHOTOSHOP']
         };
     }
 
@@ -13,7 +13,7 @@ class Skills extends Component {
         return (
             <div className="col-home">
             <h1 className="subtopic">My Skills</h1>
-            <p>
+            <p className="about">
             {this.state.myskills.map((value)=>{
                 return <p><center>{value}</center></p>
             })}

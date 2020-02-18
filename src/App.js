@@ -13,7 +13,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar />
-      <Route path="/dark-green-theme" exact component={Home} />
+      <Route path="/cartoon-theme" exact component={Home} />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
